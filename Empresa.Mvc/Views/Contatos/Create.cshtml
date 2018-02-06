@@ -44,7 +44,7 @@
             <label asp-for="Mensagem" class="control-label col-md-2"></label>
             <div class="col-md-10">
                 @*@Html.EditorFor(model => model.Mensagem, new { htmlAttributes = new { @class = "form-control" } })*@
-                <input asp-for="Mensagem" class="form-control" />
+                <textarea asp-for="Mensagem" class="form-control"></textarea>
                 @*@Html.ValidationMessageFor(model => model.Mensagem, "", new { @class = "text-danger" })*@
                 <span asp-validation-for="Mensagem" class="text-danger"></span>
             </div>
