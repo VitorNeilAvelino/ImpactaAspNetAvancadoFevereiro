@@ -189,6 +189,7 @@
     <Content Include="Areas\Vendas\Views\Produtos\Create.cshtml" />
     <Content Include="Areas\Vendas\Views\Produtos\Edit.cshtml" />
     <Content Include="Areas\Vendas\Views\Produtos\Delete.cshtml" />
+    <Content Include="NotFound.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
